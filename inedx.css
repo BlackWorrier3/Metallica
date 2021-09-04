@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+
+    background-image:
+        linear-gradient(to right top, rgb(230, 230, 230), rgb(38, 38, 38, 0.7)),
+        url(81w7GeD+tjL.jpg);
+    background-repeat: repeat-y;
+    object-fit: cover;
+    height: 100%;
+    background-position: left;
+
+}
+
+.container {
+    width: 1240px;
+    margin: 80px;
+    position: relative;
+}
+
+.blog-post-container {
+    width: 75%;
+    float: left;
+}
+
+.blog-post-box {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+    box-shadow: rgb(179, 179, 179);
+    transition: box-shadow 1s;
+    margin-right: 50px;
+}
+
+.blog-post-box:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 50px black;
+    cursor: pointer;
+}
+
+.blog-post-img {
+    width: 100%;
+    border-top-color: red;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+.blog-post-img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.blog-text {
+    margin: 20px;
+    padding: 15px;
+}
+
+.date {
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: red;
+    font-size: 18px;
+
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.members {
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.other-post {
+    width: 25%;
+    float: left;
+    padding-top: 10px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
+
+.other-post li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+
+
+}
+
+.other-post li a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.other-post li a:hover {
+    color: #000000;
+    font-size: 16px;
+}
+
+.other-post ul {
+    padding: 10px;
+}
+
+.other-post:hover {
+    opacity: 0.9;
+}
+
+h4 {
+    color: black;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+h4:hover {
+    cursor: auto;
+}
+
+.share {
+    margin-top: 10px;
+    width: 25%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 900px;
+    top: 390px;
+}
+
+.share a {
+    margin-left: 23px;
+    text-decoration: none;
+    color: green;
+    transition: opacity 1s;
+    margin-bottom: 110px;
+
+}
+
+.share a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.share .facee {
+    color: #405D9A;
+}
+
+.share .twitter {
+    color: #00ACED;
+}
+
+.share .youtube {
+    color: #FF0000;
+}
+
+.share .instagram {
+    color: #DA455A;
+}
+
+.share .spotify {
+    color: #1ED760;
+}
+
+.blog-text::first-letter {
+    font-size: 38px;
+}
+
+.blog-text {
+    letter-spacing: 1px;
+}
+
+
+hr {
+    margin-left: 15px;
+    width: 260px;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.metal {
+    position: relative;
+    left: 370px;
+    top: 50px;
+    width: 759px;
+    height: 235px;
+
+}
+
+iframe {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: opacity, box-shadow 1s linear;
+    box-shadow: 1px 1px 1px rgb(179, 179, 179);
+}
+
+iframe:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 20px;
+    cursor: pointer;
+}
+
+#concert {
+    position: relative;
+    left: -30px;
+    font-size: 33px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#form1 {
+    background-color: #F2F2F2;
+    width: 1100px;
+    font-size: 20px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+input[type=text],
+textarea,
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 80px;
+    margin-top: 5px;
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+}
+
+.col-75 {
+    width: 75%;
+    float: left;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+textarea {
+    height: 130px;
+}
+
+#gallery {
+    width: 1100px;
+    margin-top: 30px;
+}
+
+.item-container {
+    width: 25%;
+    float: left;
+}
+
+.gallery-item {
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+
+.gallery-item img {
+    width: 250px;
+    height: 400px;
+    border-radius: 80%;
+    object-fit: cover;
+
+}
+
+#james {
+    object-position: center;
+    object-fit: cover;
+
+}
+
+#lars {
+    object-position: center;
+    object-fit: cover;
+}
+
+.description {
+    color: black;
+    display: inline-block;
+    padding: 30px 70px;
+    font-size: 22px;
+}
+
+#Anasayfa {
+    margin-left: 75px;
+}
+#yanMenu ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+#yanMenu  li{
+    float: left;
+    position: relative;
+    width: 168px;
+    font-size: 17px;
+}
+#yanMenu li ul{
+    display: none;
+    position: absolute;
+    left: -80px;
+    top: 30px;
+}
+#yanMenu ul li{
+    margin-right: 10px;
+}
+#yanMenu ul li a{
+    display: block;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 25px;
+}
+#yanMenu ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+#yanMenu li:hover ul {
+    display: block;
+}
+#yanMenu li ul li{
+    margin-top: 5px;
+}
+#yanMenu ul{
+    z-index: 1;
+}
+#yanMenu i{
+    position: absolute;
+    left: 18px;
+    top: 12px;
+}
+#yanMenu i:hover{
+    color: white;
+}
+
+
+
+
